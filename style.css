@@ -12,11 +12,18 @@
     .banner {
       height: 400px
     }
+    .body-container{
+      margin-right: 15px;
+    }
   }
   
   @media only screen and (max-width: 480px) {
     .banner {
       height: 250px;
+    }
+    .body-container{
+      margin-right: 10px;
+        
     }
 }
 
