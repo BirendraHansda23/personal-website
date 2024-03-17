@@ -1,9 +1,29 @@
 .body-conatainer{
     justify-content: center;
 }
+
+.banner {
+    width: 100%; /* Image fills horizontal space */
+    height: 681px; /* Set initial height (can be adjusted based on your design) */
+  }
+  
+  /* Media queries for different screen sizes */
+  @media only screen and (max-width: 768px) {
+    .banner {
+      height: 400px
+    }
+  }
+  
+  @media only screen and (max-width: 480px) {
+    .banner {
+      height: 250px;
+    }
+}
+
 .hero{
     background: rgba(255, 251, 0, 0.184);
 }
+
 .pfp{
 border-radius: 50%;
 }
