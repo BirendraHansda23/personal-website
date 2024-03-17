@@ -1,0 +1,9 @@
+.body-conatainer{
+    justify-content: center;
+}
+.hero{
+    background: rgba(255, 251, 0, 0.184);
+}
+.pfp{
+border-radius: 50%;
+}
